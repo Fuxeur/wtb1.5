@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+h2
+{
+	text-align: left;
+}
+
+.body
+{
+	text-align: center;
+	font-family: arial;
+
+}
+
+.va
+{
+	color: gold;
+}
+
+.va hover
+{
+	color: red;
+}
+
+
+.haut
+{
+	display: inline-block;
+	text-align: right;
+}
+
+nav {
+	display: inline-block;
+	margin-left: 20px;
+	text-align: right;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav li a {
+	color: #f2b202;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+nav li a:hover {
+	color: #a37802;
+}
+
+
+header h2
+{
+	text-align:right;
+}
+
+.logo
+{
+	background-color: #303841;
+}
+
+.body p
+{
+	background-color: #dedede ;
+	text-decoration: none;
+	cursor: pointer;
+	font-family: comic sans ms;
+}
+
+.video
+{
+	align-items: center;
+	text-align: center;
+}
+
+h3
+{
+	font-family: Comic Sans MS;
+}
+
+footer
+{
+	text-align: center;
+	font-family: Ink Free;
+}
+
+.bodya
+{
+	color: black;
+}
+
+.mainmenubtn {
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+}
+.dropdown-child a {
+    text-decoration: none;
+    display: block;
+    color: #f2b202;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+.bodyb
+{
+	text-align: center;
+	font-family: comic sans ms;
+}
+
+.bodyb h3
+{
+	background-color: grey;
+}
+
+.bodyl
+{
+	display: flex;
+	align-items: center;
+	justify-content: center ;
+	height: 100vh;
+	margin:0 ;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.line 
+{
+	width: 1250px;
+	height: 75px;
+	border-radius: 100px ;
+	box-sizing: 0px 0px 15px #f357ff,0px 0px 40px #f357ff;
+	animation: animate 3s linear infinite;
+	background: linear-gradient(to right,#ff2d2d,#77ff77,#00ddff);
+}
+@keyframes animate
+{
+	0%{
+		filter: hue-rotate(0deg);
+	}
+	100%{
+		filter: hue-rotate(360deg);
+	}
+}
+
+h1
+{
+	text-align: center ;
+}
+
+.form
+{
+	align-items: center;
+}
+
+.ptext
+{
+	text-align: center;
+}
+.text
+{
+	opacity: 0% ;
+	display: none;
+}
+
+.alltext:hover .text
+{
+	opacity: 50% ;
+	display: block;
+}
+
+.alltext:hover .ptext
+{
+	opacity: 50% ;
+}
+
+
